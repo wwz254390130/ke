@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>projectOverview</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/projectBase.css">
+  <link rel="stylesheet" href="../css/projectAll.css">
+</head>
+<body>
+  <div class="Overview">
+    <!-- 头部 -->
+    <div class="Overview-header">
+      <h3 class="Overview-header-title">科技产品项目管理系统</h3>
+      <div class="Overview-header-user">
+         <img src="../images/msg.png" alt="">   
+   </div>
+    </div>
+    <div class="Overview-conten">
+      <!-- 菜单栏 -->
+      <div class="Overview-menu"> 
+        <ul>
+          <li ><a href="./projectOverview.html"><img src="../images/projectOverview.png" alt="">项目概况</a></li>
+          <li class="Overview-select"><a href="./projectAll.html"><img src="../images/projectAll-select.png" alt=""> 全部项目</a></li>
+          <li><a href="./tasksAll.html"><img src="../images/tasksAll.png" alt=""> 全部任务</a></li>
+          <li><a href="./fileManager.html"><img src="../images/fileManager.png" alt=""> 文档资料</a></li>
+        </ul>
+        <div class="separator"></div>
+      </div>
+      <!-- 主题内容 -->
+      <div class="Overview-main">
+        <table class="table">
+          <tbody id="filtrate" class="project filtrate">
+            <tr><td>
+                <div class="project-search js-btn-toggle"><img src="../images/filtrate.png" alt=""></div>
+            </td>
+            <td><span class="">项目名称</span><input type="text"></td>
+            <td>
+              <span class="">项目负责人</span> <input type="text">
+            </td>
+            <td><span class="">项目启动日</span><div class="project-Line" ></div></td>
+            <td><input type="text"></td>
+            <td><span>至</span></td>
+            <td><input type="text"></td>
+            <td> <span class="btn-search">确定</span></td>
+          </tr>
+          </tbody>
+        </table>
+        <!-- 搜索栏 -->
+        <!-- <div class="row project filtrate">
+          <div class="col-sm-1">
+            <div class="project-search js-btn-toggle"><img src="../images/filtrate.png" alt=""></div> </div>
+          <div class="col-sm-2 apothem"><span class="">项目名称</span> <div class="project-Line" ></div></div>
+
+          <div class="col-sm-2 apothem"><span class="">项目负责人</span> <div class="project-Line" ></div></div>
+
+          <div class="col-sm-2 col-sm-offset-1 apothem"><span class="">项目启动日</span><div class="project-Line" ><input type="date" class="input-date"></div><img class="set-right" src="../images/date.png" alt=""></div>
+
+          <div class="col-sm-2 apothem"><span class="col-sm-offset-2">至</span><div class="project-Line" ><input class="input-date" type="date" name="" id=""></div><img class="set-right" src="../images/date.png" alt=""></div>
+
+          <div class="col-sm-1 col-sm-offset-1"><span class="btn-search">确定</span></div>
+      </div> -->
+      <div class="row project filtrate-none">
+          <div class="col-sm-1">
+            <div class="project-none js-btn-toggle"><img src="../images/filtrate-none.png" alt=""></div> </div>
+      </div>
+       <!-- 表格 -->
+       <table class="table project-table" >
+         <thead>
+          <tr>
+            <th>项目名称</th>
+            <th>项目描述</th>
+            <th>项目负责人</th>
+            <th>项目启动日</th>
+            <th>项目预算(折RMB)</th>
+            <th>团队成员</th>
+            <th><div class="project-add">+</div></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>赤狐</td>
+            <td>赤狐是一款服务于销售人员的工具,已销售员</td>
+            <td>Randy REN</td>
+            <td>2016-3-1</td>
+            <td>1,500,000</td>
+            <td>6</td>
+            <td class="operation"><img src="../images/edit.png" alt=""><a href="./tasksAll.html"><img src="../images/tasksAll.png" alt=""></a><a href="./fileManager.html"><img src="../images/fileManager.png" alt=""></a></td>
+          </tr>
+        </tbody>
+       
+        </table>
+      </div>
+    
+  </div>
+ 
+  <script src="../js/jquery.js"></script>
+  <!-- <script src="../js/g2.js"></script>
+  <script src="../js/data-set.js"></script> -->
+  <script src="../js/projectAll.js"></script>
+</body>
+</html>

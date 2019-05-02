@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>projectOverview</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/projectBase.css">
+  <link rel="stylesheet" href="../css/projectOverview.css">
+  <style>::-webkit-scrollbar{display:none;}html,body{overflow:hidden;height:100%;margin:0;}</style>
+</head>
+<body>
+  <div class="Overview">
+    <!-- 头部 -->
+    <div class="Overview-header">
+      <h3 class="Overview-header-title">科技产品项目管理系统</h3>
+      <div class="Overview-header-user">
+         <img src="../images/msg.png" alt="">   
+   </div>
+    </div>
+
+    <div class="Overview-conten">
+      <!-- 菜单栏 -->
+      <div class="Overview-menu"> 
+        <ul>
+          <li class="Overview-select"><a href="./projectOverview.html"><img src="../images/projectOverview-select.png" alt="">项目概况</a></li>
+          <li><a href="./projectAll.html"><img src="../images/projectAll.png" alt=""> 全部项目</a></li>
+          <li><a href="./tasksAll.html"><img src="../images/tasksAll.png" alt=""> 全部任务</a></li>
+          <li><a href="./fileManager.html"><img src="../images/fileManager.png" alt=""> 文档资料</a></li>
+        </ul>
+        <div class="separator"></div>
+      </div>
+      <!-- 内容 -->
+     <div class="row Overview-main">
+          <div class="col-sm-3">
+            <div class="row">
+            <div class=" preview">
+              <div class="col-sm-6 preview-icon"><img src="../images/projectAll-select.png" alt=""></div>
+              <div class="col-sm-6 preview-content">
+                <span class="preview-sum">3</span>
+                <div class="preview-title">项目</div>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <div class="col-sm-3">
+          <div class="row">
+          <div class=" preview">
+            <div class="col-sm-6 preview-icon"><img src="../images/tasksAll-select.png" alt=""></div>
+            <div class="col-sm-6 preview-content">
+              <span class="preview-sum">120</span>
+              <div class="preview-title">任务</div>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <div class="col-sm-3">
+        <div class="row">
+        <div class=" preview">
+          <div class="col-sm-6 preview-icon"><img src="../images/fileManager-select.png" alt=""></div>
+          <div class="col-sm-6 preview-content">
+            <span class="preview-sum">17</span>
+            <div class="preview-title">文档</div>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <div class="col-sm-3">
+      <div class="row">
+      <div class=" preview">
+        <div class="col-sm-6 preview-icon"><img src="../images/fileManager-select.png" alt=""></div>
+        <div class="col-sm-6 preview-content">
+          <span class="preview-sum">0</span>
+          <div class="preview-title">待定</div>
+        </div>
+      </div>
+    </div>  
+  </div>
+  <div class="col-sm-5 chart">
+    <div id="mountNode">
+      <!-- <div class="mountNode-title">任务</div> -->
+    </div>
+  </div>
+  </div>
+    
+  </div>
+ 
+  <script src="../js/jquery.js"></script>
+  <script src="../js/g2.js"></script>
+  <script src="../js/data-set.js"></script>
+  <script src="../js/projectOveriew.js"></script>
+</body>
+</html>

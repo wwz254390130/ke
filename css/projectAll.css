@@ -1,0 +1,86 @@
+.project{
+  width: 1000px;
+  height: 42px;
+  line-height: 42px;
+}
+#filtrate td{
+  border: 0;
+}
+.project-search{
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  background-color: #999;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.project-none{
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+}
+.project.filtrate-none{
+  display: none;
+}
+
+.project .apothem{
+position: relative;
+}
+.set-right{
+position: absolute;
+right: 0;
+top: 10px;
+}
+.project-Line{
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  right: 0;
+  top: 0px;
+ border-bottom: 1px solid #000;
+
+}
+.project .btn-search{
+  display: block;
+ width: 70px;
+height: 20px;
+text-align: center;
+line-height: 20px;
+margin-top: 10px;
+background-color: #e4e4e4;
+cursor: pointer;
+}
+.project-table{
+  position: relative;
+  margin-top: 20px;
+  background-color: #fff;
+}
+.project-table th{
+  height: 48px;
+background-color: #e4e4e4;
+}
+.project-table th,
+.project-table td{
+  max-width: 220px;
+  text-align: center;
+}
+.project-table .operation img{
+  width: 20px;
+  margin-right: 5px;
+}
+.project-table .project-add{
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  line-height: 37px;
+  right: 15px;
+  top: -21px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #1976d2;
+  cursor: pointer;
+}
